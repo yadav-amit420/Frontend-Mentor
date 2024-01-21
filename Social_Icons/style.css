@@ -1,0 +1,84 @@
+@font-face {
+    font-family: inter-Bold;
+    src: url(./assets/fonts/static/inter-Bold.ttf);
+}
+@font-face {
+    font-family: inter-Regular;
+    src: url(./assets/fonts/static/inter-Regular.ttf);
+}
+@font-face {
+    font-family: inter-SemiBold;
+    src: url(./assets/fonts/static/inter-SemiBold.ttf);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #141414;  
+  color: #fff;
+  font-family: inter-Regular;
+  text-align: center;
+}
+
+#container {
+    width: 330px;
+    height: 540px;
+    background-color: #1f1f1f;
+    margin: 120px auto;
+    border-radius: 10px;
+}
+
+#container img{
+  width:80px ;
+  border-radius: 50%;
+  margin: 35px 0 8px 0;
+}
+
+#container .bio-div{
+  padding: 15px;
+}
+
+#container .bio-div p:first-child{
+  font-size: 21px;
+  font-family: inter-SemiBold;
+}
+
+#container .bio-div p:nth-child(2) {
+    font-size: 13px;
+    color: #c4f82a;
+    margin: 7px 0 25px 0;
+    font-family: inter-SemiBold;
+}
+
+#container .bio-div p:last-child{
+  font-size: 12px;
+}
+
+.button-list{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 33px;
+}
+
+.button-list button {
+    margin: 7px 0;
+    height: 40px;
+    border: none;
+    border-radius: 7px;
+    background-color: #333;
+    color: #fff;
+    transition: 0.3s;
+    font-size: 12px;
+    font-family: inter-SemiBold;;
+}
+
+.button-list button:hover{
+  cursor: pointer;
+  background-color: #c4f82a;
+  color: #151515;
+  font-family: inter-Bold;;
+}
